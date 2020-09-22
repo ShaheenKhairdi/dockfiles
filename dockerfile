@@ -1,6 +1,6 @@
 #Version: 1.0
 FROM ubuntu:18.04
-RUN git clone https://github.com/ShaheenKhairdi/dockfi;es.git /opt/dockfile
+RUN git clone https://github.com/ShaheenKhairdi/dockfiles.git /opt/dockfile
 WORKDIR /opt/dockfile
 MAINTAINER SK 'khairdishaheen@gmail.com'
 RUN apt update;apt -y install nginx
